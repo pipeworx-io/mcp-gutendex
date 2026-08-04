@@ -2,7 +2,7 @@
 
 Gutendex MCP — wraps Gutendex API for Project Gutenberg books (free, no auth)
 
-Part of [Pipeworx](https://pipeworx.io) — an MCP gateway connecting AI agents to 673+ live data sources.
+Part of [Pipeworx](https://pipeworx.io) — an MCP gateway connecting AI agents to 1394+ live data sources.
 
 ## Tools
 
@@ -11,7 +11,7 @@ Part of [Pipeworx](https://pipeworx.io) — an MCP gateway connecting AI agents 
 | `search_books` | Search for books by title or author name. Returns book IDs, titles, authors, and download counts. |
 | `get_book` | Get full details for a book by ID. Returns title, author, publication year, language, available formats, and download count. |
 | `popular_books` | Get the most downloaded books ranked by popularity. Returns titles, authors, IDs, and download statistics. |
-| `books_by_topic` | Browse books by subject or topic (e.g., \'science fiction\', \'philosophy\'). Returns matching titles, authors, and IDs. |
+| `books_by_topic` | Browse books by subject or topic (e.g., 'science fiction', 'philosophy'). Returns matching titles, authors, and IDs. |
 
 ## Quick Start
 
@@ -27,7 +27,7 @@ Add to your MCP client (Claude Desktop, Cursor, Windsurf, etc.):
 }
 ```
 
-Or connect to the full Pipeworx gateway for access to all 673+ data sources:
+Or connect to the full Pipeworx gateway for access to all 1394+ data sources:
 
 ```json
 {
@@ -51,7 +51,7 @@ The gateway picks the right tool and fills the arguments automatically.
 
 ## More
 
-- [All tools and guides](https://github.com/pipeworx-io/examples)
+- [Docs and guides](https://pipeworx.io/docs)
 - [pipeworx.io](https://pipeworx.io)
 
 ## License
