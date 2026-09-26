@@ -9,7 +9,7 @@ import { CallToolRequestSchema, ListToolsRequestSchema } from '@modelcontextprot
 import pack from './index.js';
 
 const server = new Server(
-  { name: '@pipeworx/mcp-gutendex', version: '1.0.1' },
+  { name: '@pipeworx/mcp-gutendex', version: '1.0.2' },
   { capabilities: { tools: {} } },
 );
 
