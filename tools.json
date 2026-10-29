@@ -1,0 +1,58 @@
+[
+  {
+    "name": "search_books",
+    "description": "Search for books by title or author name. Returns book IDs, titles, authors, and download counts.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "query": {
+          "type": "string",
+          "description": "Title or author name to search for."
+        }
+      },
+      "required": [
+        "query"
+      ]
+    }
+  },
+  {
+    "name": "get_book",
+    "description": "Get full details for a book by ID. Returns title, author, publication year, language, available formats, and download count.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "number",
+          "description": "The numeric Project Gutenberg book ID."
+        }
+      },
+      "required": [
+        "id"
+      ]
+    }
+  },
+  {
+    "name": "popular_books",
+    "description": "Get the most downloaded books ranked by popularity. Returns titles, authors, IDs, and download statistics.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {}
+    }
+  },
+  {
+    "name": "books_by_topic",
+    "description": "Browse books by subject or topic (e.g., 'science fiction', 'philosophy'). Returns matching titles, authors, and IDs.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "topic": {
+          "type": "string",
+          "description": "Topic or subject keyword to filter books by (e.g. \"science\", \"love\", \"history\")."
+        }
+      },
+      "required": [
+        "topic"
+      ]
+    }
+  }
+]
