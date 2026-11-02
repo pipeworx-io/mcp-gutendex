@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-gutendex",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Gutendex MCP — wraps Gutendex API for Project Gutenberg books (free, no auth)",
   "type": "module",
   "main": "lib/index.js",
@@ -27,7 +27,7 @@
     "mode": "gateway",
     "slug": "gutendex",
     "gatewaySlug": "gutendex",
-    "sourceHash": "v1-f53f2cfbc462a701cd9ac9dc66b2168f3c91551e1b731f66a82dc1e3fb460d50",
-    "sourceCommit": "4844029e402d6bd2fe735add8abf6d46735f8ed5"
+    "sourceHash": "v1-5d2987bd7be869c0f620ae8fe38fe965ecf989ee98618a206493bec553469f99",
+    "sourceCommit": "0ca9712c0ac03bb0121cc7e81b202d0c45ac02ca"
   }
 }
